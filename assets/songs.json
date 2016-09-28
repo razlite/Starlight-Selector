@@ -4,6 +4,7 @@
       "name":     "お願い！シンデレラ",
       "type":     0,
       "info":     "1",
+      "jacket":   "1001",
       "level": {
         "debut": 5,
         "regular": 10,
@@ -15,6 +16,7 @@
       "name":     "とどけ！アイドル",
       "type":     0,
       "info":     "29",
+      "jacket":   "9001",
       "level": {
         "debut": 5,
         "regular": 11,
@@ -26,6 +28,7 @@
       "name":     "輝く世界の魔法",
       "type":     0,
       "info":     "2",
+      "jacket":   "1002",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -37,6 +40,7 @@
       "name":     "We're the friends!",
       "type":     0,
       "info":     "3",
+      "jacket":   "1003",
       "level": {
         "debut": 6,
         "regular": 12,
@@ -48,6 +52,7 @@
       "name":     "メッセージ",
       "type":     0,
       "info":     "4",
+      "jacket":   "1004",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -59,6 +64,7 @@
       "name":     "Star!!",
       "type":     0,
       "info":     "19",
+      "jacket":   "5001",
       "level": {
         "debut": 6,
         "regular": 12,
@@ -70,6 +76,7 @@
       "name":     "夕映えプレゼント",
       "type":     0,
       "info":     "20",
+      "jacket":   "5002",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -81,6 +88,7 @@
       "name":     "GOIN'!!!",
       "type":     0,
       "info":     "21",
+      "jacket":   "5003",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -92,6 +100,7 @@
       "name":     "できたて Evo! Revo! Generation!",
       "type":     0,
       "info":     "22",
+      "jacket":   "5004",
       "level": {
         "debut": 7,
         "regular": 11,
@@ -103,6 +112,7 @@
       "name":     "Happy×2 Days",
       "type":     1,
       "info":     "23",
+      "jacket":   "5005",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -114,6 +124,7 @@
       "name":     "-LEGNE- 仇なす剣 光の旋律",
       "type":     2,
       "info":     "24",
+      "jacket":   "5006",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -125,6 +136,7 @@
       "name":     "Memories",
       "type":     2,
       "info":     "25",
+      "jacket":   "5007",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -136,6 +148,7 @@
       "name":     "OωOver!!",
       "type":     1,
       "info":     "26",
+      "jacket":   "5008",
       "level": {
         "debut": 8,
         "regular": 12,
@@ -147,6 +160,7 @@
       "name":     "LET'S GO HAPPY!!",
       "type":     3,
       "info":     "27",
+      "jacket":   "5009",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -158,6 +172,7 @@
       "name":     "Shine!!",
       "type":     0,
       "info":     "30",
+      "jacket":   "5010",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -169,6 +184,7 @@
       "name":     "夢色ハーモニー",
       "type":     0,
       "info":     "38",
+      "jacket":   "5011",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -180,6 +196,7 @@
       "name":     "Trancing Pulse",
       "type":     2,
       "info":     "35",
+      "jacket":   "5021",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -191,6 +208,7 @@
       "name":     "流れ星キセキ",
       "type":     0,
       "info":     "45",
+      "jacket":   "5024",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -202,6 +220,7 @@
       "name":     "M@GIC☆",
       "type":     0,
       "info":     "36",
+      "jacket":   "5025",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -213,6 +232,7 @@
       "name":     "ススメ☆オトメ ～jewel parade～",
       "type":     1,
       "info":     "5",
+      "jacket":   "1005",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -224,6 +244,7 @@
       "name":     "ススメ☆オトメ ～jewel parade～",
       "type":     2,
       "info":     "6",
+      "jacket":   "1006",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -235,6 +256,7 @@
       "name":     "ススメ☆オトメ ～jewel parade～",
       "type":     3,
       "info":     "7",
+      "jacket":   "1007",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -246,6 +268,7 @@
       "name":     "ススメ☆オトメ ～jewel parade～",
       "type":     0,
       "info":     "8",
+      "jacket":   "1008",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -257,6 +280,7 @@
       "name":     "アタシポンコツアンドロイド",
       "type":     1,
       "info":     "41",
+      "jacket":   "1009",
       "level": {
         "debut": 8,
         "regular": 12,
@@ -268,6 +292,7 @@
       "name":     "Nation Blue",
       "type":     2,
       "info":     "42",
+      "jacket":   "1010",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -279,6 +304,7 @@
       "name":     "Orange Sapphire",
       "type":     3,
       "info":     "43",
+      "jacket":   "1011",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -290,6 +316,7 @@
       "name":     "パステルピンクな恋",
       "type":     1,
       "info":     "56",
+      "jacket":   "1014",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -301,6 +328,7 @@
       "name":     "オルゴールの小箱",
       "type":     2,
       "info":     "57",
+      "jacket":   "1012",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -312,6 +340,7 @@
       "name":     "絶対特権主張しますっ！",
       "type":     3,
       "info":     "58",
+      "jacket":   "1013",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -323,6 +352,7 @@
       "name":     "ゴキゲンParty Night",
       "type":     1,
       "info":     "46",
+      "jacket":   "1015",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -334,6 +364,7 @@
       "name":     "ゴキゲンParty Night",
       "type":     2,
       "info":     "47",
+      "jacket":   "1016",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -345,6 +376,7 @@
       "name":     "ゴキゲンParty Night",
       "type":     3,
       "info":     "48",
+      "jacket":   "1017",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -356,6 +388,7 @@
       "name":     "ゴキゲンParty Night",
       "type":     0,
       "info":     "510",
+      "jacket":   "1019",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -367,6 +400,7 @@
       "name":     "明日また会えるよね",
       "type":     1,
       "info":     "303",
+      "jacket":   "1022",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -378,6 +412,7 @@
       "name":     "咲いてJewel",
       "type":     2,
       "info":     "304",
+      "jacket":   "1023",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -389,6 +424,7 @@
       "name":     "きみにいっぱい☆",
       "type":     3,
       "info":     "305",
+      "jacket":   "1024",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -400,6 +436,7 @@
       "name":     "Near to You",
       "type":     1,
       "info":     "309",
+      "jacket":   "1025",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -411,6 +448,7 @@
       "name":     "Near to You",
       "type":     2,
       "info":     "310",
+      "jacket":   "1026",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -422,6 +460,7 @@
       "name":     "Near to You",
       "type":     3,
       "info":     "311",
+      "jacket":   "1027",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -433,6 +472,7 @@
       "name":     "Near to You",
       "type":     0,
       "info":     "312",
+      "jacket":   "1028",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -444,6 +484,7 @@
       "name":     "Snow Wings",
       "type":     0,
       "info":     "55",
+      "jacket":   "9002",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -455,6 +496,7 @@
       "name":     "Tulip",
       "type":     0,
       "info":     "54",
+      "jacket":   "9003",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -466,6 +508,7 @@
       "name":     "ハイファイ☆デイズ",
       "type":     0,
       "info":     "62",
+      "jacket":   "9004",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -477,6 +520,7 @@
       "name":     "生存本能ヴァルキュリア",
       "type":     0,
       "info":     "302",
+      "jacket":   "9005",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -488,6 +532,7 @@
       "name":     "純情Midnight伝説",
       "type":     0,
       "info":     "306",
+      "jacket":   "9006",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -499,6 +544,7 @@
       "name":     "Love∞Destiny",
       "type":     0,
       "info":     "307",
+      "jacket":   "9007",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -510,6 +556,7 @@
       "name":     "サマカニ！！",
       "type":     0,
       "info":     "308",
+      "jacket":   "9008",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -521,6 +568,7 @@
       "name":     "BEYOND THE STARLIGHT",
       "type":     0,
       "info":     "313",
+      "jacket":   "9009",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -532,6 +580,7 @@
       "name":     "Absolute NIne",
       "type":     0,
       "info":     "61",
+      "jacket":   "1020",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -543,6 +592,7 @@
       "name":     "つぼみ",
       "type":     0,
       "info":     "301",
+      "jacket":   "1021",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -554,6 +604,7 @@
       "name":     "S(mile)ING!",
       "type":     1,
       "info":     "9",
+      "jacket":   "3001",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -565,6 +616,7 @@
       "name":     "Never say never",
       "type":     2,
       "info":     "10",
+      "jacket":   "3002",
       "level": {
         "debut": 6,
         "regular": 12,
@@ -576,6 +628,7 @@
       "name":     "ミツボシ☆☆★",
       "type":     3,
       "info":     "11",
+      "jacket":   "3003",
       "level": {
         "debut": 8,
         "regular": 12,
@@ -587,6 +640,7 @@
       "name":     "おねだりShall We ～?",
       "type":     1,
       "info":     "18",
+      "jacket":   "3010",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -598,6 +652,7 @@
       "name":     "Twilight Sky",
       "type":     2,
       "info":     "28",
+      "jacket":   "3014",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -609,6 +664,7 @@
       "name":     "DOKIDOKIリズム",
       "type":     3,
       "info":     "17",
+      "jacket":   "3009",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -620,6 +676,7 @@
       "name":     "風色メロディ",
       "type":     1,
       "info":     "12",
+      "jacket":   "3004",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -631,6 +688,7 @@
       "name":     "ましゅまろ☆キッス",
       "type":     3,
       "info":     "14",
+      "jacket":   "3006",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -642,6 +700,7 @@
       "name":     "あんずのうた",
       "type":     1,
       "info":     "15",
+      "jacket":   "3007",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -653,6 +712,7 @@
       "name":     "華蕾夢ミル狂詩曲 ～魂ノ導～",
       "type":     2,
       "info":     "13",
+      "jacket":   "3005",
       "level": {
         "debut": 6,
         "regular": 13,
@@ -664,6 +724,7 @@
       "name":     "ショコラ・ティアラ",
       "type":     1,
       "info":     "34",
+      "jacket":   "3013",
       "level": {
         "debut": 6,
         "regular": 13,
@@ -675,6 +736,7 @@
       "name":     "ヴィーナスシンドローム",
       "type":     2,
       "info":     "32",
+      "jacket":   "3011",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -686,6 +748,7 @@
       "name":     "Romantic Now",
       "type":     3,
       "info":     "33",
+      "jacket":   "3012",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -697,6 +760,7 @@
       "name":     "You're stars shine on me",
       "type":     2,
       "info":     "31",
+      "jacket":   "3008",
       "level": {
         "debut": 6,
         "regular": 12,
@@ -708,6 +772,7 @@
       "name":     "TOKIMEKIエスカレート",
       "type":     3,
       "info":     "37",
+      "jacket":   "3015",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -719,6 +784,7 @@
       "name":     "Naked Romance",
       "type":     1,
       "info":     "40",
+      "jacket":   "3017",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -730,6 +796,7 @@
       "name":     "Angel Breeze",
       "type":     2,
       "info":     "44",
+      "jacket":   "3019",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -741,6 +808,7 @@
       "name":     "アップルパイ・プリンセス",
       "type":     3,
       "info":     "51",
+      "jacket":   "3018",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -752,6 +820,7 @@
       "name":     "エヴリデイドリーム",
       "type":     1,
       "info":     "52",
+      "jacket":   "3023",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -763,6 +832,7 @@
       "name":     "Bright Blue",
       "type":     2,
       "info":     "53",
+      "jacket":   "3031",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -774,6 +844,7 @@
       "name":     "Rockin' Emotion",
       "type":     3,
       "info":     "59",
+      "jacket":   "5015",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -785,6 +856,7 @@
       "name":     "花簪 HANAKANZASHI",
       "type":     1,
       "info":     "60",
+      "jacket":   "3029",
       "level": {
         "debut": 6,
         "regular": 13,
@@ -796,6 +868,7 @@
       "name":     "Hotel Moonside",
       "type":     2,
       "info":     "63",
+      "jacket":   "3034",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -807,6 +880,7 @@
       "name":     "お散歩カメラ",
       "type":     3,
       "info":     "64",
+      "jacket":   "3025",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -818,6 +892,7 @@
       "name":     "メルヘンデビュー！",
       "type":     1,
       "info":     "65",
+      "jacket":   "3021",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -829,6 +904,7 @@
       "name":     "2nd SIDE",
       "type":     2,
       "info":     "66",
+      "jacket":   "3027",
       "level": {
         "debut": 7,
         "regular": 12,
@@ -840,6 +916,7 @@
       "name":     "熱血乙女A",
       "type":     3,
       "info":     "67",
+      "jacket":   "3020",
       "level": {
         "debut": 6,
         "regular": 11,
@@ -851,6 +928,7 @@
       "name":     "き・ま・ぐ・れ☆Café au lait！",
       "type":     1,
       "info":     "68",
+      "jacket":   "3033",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -862,6 +940,7 @@
       "name":     "薄荷 -ハッカ-",
       "type":     2,
       "info":     "69",
+      "jacket":   "3028",
       "level": {
         "debut": 6,
         "regular": 13,
@@ -873,6 +952,7 @@
       "name":     "毒茸伝説",
       "type":     3,
       "info":     "70",
+      "jacket":   "3026",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -884,6 +964,7 @@
       "name":     "秘密のトワレ",
       "type":     1,
       "info":     "71",
+      "jacket":   "3038",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -895,6 +976,7 @@
       "name":     "小さな恋の密室事件",
       "type":     2,
       "info":     "72",
+      "jacket":   "3024",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -906,6 +988,7 @@
       "name":     "Can't Stop!!",
       "type":     3,
       "info":     "76",
+      "jacket":   "3037",
       "level": {
         "debut": 7,
         "regular": 13,
