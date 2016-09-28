@@ -10,7 +10,9 @@ window.onload = function()
 	var songs_cool = [];
 	var songs_passion = [];
 
-	var color = ["#000000", "#FB0774", "#236DFB", "#FCA926"]
+	var color = ["#000000", "#FB0774", "#236DFB", "#FCA926"];
+	
+	var difficulty = ["DEBUT", "REGULAR", "PRO", "MASTER"];
 	
 	httpObj.onload = function()
 	{
@@ -58,45 +60,50 @@ window.onload = function()
 	button.onclick = function()
 	{
 		var rand = Math.floor(Math.random() * songs.length);
+		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs[rand];
 		
-		var word = "<b> <font color=\"" + color[songs_type[rand]] + "\">" + result + "</font> </b>";
+		var word = "<b> <font color=\"" + color[songs_type[rand]] + "\">" + result + " [" + difficulty[dRand] + "]" + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
 	button_all.onclick = function()
 	{
 		var rand = Math.floor(Math.random() * songs_all.length);
+		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_all[rand];
 		
-		var word = "<b> <font color=\"" + color[0] + "\">" + result + "</font> </b>";
+		var word = "<b> <font color=\"" + color[0] + "\">" + result + " [" + difficulty[dRand] + "]" + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
 	button_cute.onclick = function()
 	{
 		var rand = Math.floor(Math.random() * songs_cute.length);
+		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_cute[rand];
 		
-		var word = "<b> <font color=\"" + color[1] + "\">" + result + "</font> </b>";
+		var word = "<b> <font color=\"" + color[1] + "\">" + result + " [" + difficulty[dRand] + "]" + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
 	button_cool.onclick = function()
 	{
 		var rand = Math.floor(Math.random() * songs_cool.length);
+		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_cool[rand];
 		
-		var word = "<b> <font color=\"" + color[2] + "\">" + result + "</font> </b>";
+		var word = "<b> <font color=\"" + color[2] + "\">" + result + " [" + difficulty[dRand] + "]" + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
 	button_passion.onclick = function()
 	{
 		var rand = Math.floor(Math.random() * songs_passion.length);
+		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_passion[rand];
 		
-		var word = "<b> <font color=\"" + color[3] + "\">" + result + "</font> </b>";
+		var word = "<b> <font color=\"" + color[3] + "\">" + result + " [" + difficulty[dRand] + "]" + "</font> </b>";
 		area.innerHTML = word;
 	}
 }
