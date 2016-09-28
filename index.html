@@ -1,0 +1,137 @@
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+	<!-- Meta Tag
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<title>Starlight Selector - Starlight Stage Random Selector</title>
+
+	<meta charset="UTF-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="title" content="Starlight Selector - Starlight Stage Random Selector" />
+	<meta name="author" content="razlite" />
+	<meta name="description" content="デレステ楽曲をランダムで選びます。" />
+	<meta name="keywords" content="デレステ" />
+	
+	<!-- Microsoft
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	
+	<!-- Twitter
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="twitter:card" content="summary_large_image">
+	
+	<!-- Google
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="google" content="notranslate">
+	
+	<!-- OGP
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta property="og:site_name" content="Starlight Selector - Starlight Stage Random Selector">
+	<meta property="og:description" content="デレステ楽曲をランダムで選びます。">
+	<meta property="og:type" content="website">
+
+	<!-- CSS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="./rin/css/bootstrap.min.css" />
+	
+	<link rel="stylesheet" href="./assets/selector.css" />
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="panel panel-primary">
+			<div class="panel-heading">How to use</div>
+			
+			<div class="button-guide">
+				<p>
+					ボタンを押したらランダムで楽曲を選んでくれます。<br />
+				</p>
+				
+				<dl class="dl-horizontal">
+					<dt>？ボタン</dt>
+					<dd>すべての楽曲からランダムで選びます。</dd>
+					
+					<dt>CPボタン</dt>
+					<dd>全タイプ楽曲からランダムで選びます。</dd>
+					
+					<dt>Cuボタン</dt>
+					<dd>キュート楽曲からランダムで選びます。</dd>
+					
+					<dt>Coボタン</dt>
+					<dd>クール楽曲からランダムで選びます。</dd>
+					
+					<dt>Paボタン</dt>
+					<dd>パッション楽曲からランダムで選びます。</dd>
+				</dl>
+				
+			</div>
+		</div>
+	
+		<div class="panel panel-success">
+			<div class="panel-heading">Random Selector</div>
+			
+			<div class="center">
+				
+				<!-----------------------------------------------------------------------------------------------------------------------
+				
+				<button type="button" class="btn btn-success" id="sel" onClick="select()">全ての楽曲から</button>
+				<button type="button" class="btn btn-default" id="sel_all" onClick="select_all()">全タイプ楽曲から</button>
+				<button type="button" class="btn btn-danger" id="sel_cute" onClick="select_cute()">キュート楽曲から</button>
+				<button type="button" class="btn btn-primary" id="sel_cool" onClick="select_cool()">クール楽曲から</button>
+				<button type="button" class="btn btn-warning" id="sel_passion" onClick="select_passion()">パッション楽曲から</button>
+				
+				----------------------------------------------------------------------------------------------------------------------->
+				
+				<div class="buttons-top">
+					<button type="button" class="btn btn-default btn-circle btn-xl" id="sel" onclick="select()">？</button>
+					<button type="button" class="btn btn-default btn-circle btn-xl" id="sel_all" onclick="select_all()"><img src="assets/img/all.png" class="img-responsive"></button>
+				</div>
+				
+				<div class="buttons-btm">
+					<button type="button" class="btn btn-default btn-circle btn-xl" id="sel_cute" onclick="select_cute()"><img src="assets/img/cute.png" class="img-responsive"></button>
+					<button type="button" class="btn btn-default btn-circle btn-xl" id="sel_cool" onclick="select_cool()"><img src="assets/img/cool.png" class="img-responsive"></button>
+					<button type="button" class="btn btn-default btn-circle btn-xl" id="sel_passion" onclick="select_passion()"><img src="assets/img/passion.png" class="img-responsive"></button>
+				</div>
+				
+				<div class="result">
+					<div class="result-title">
+						<p>Result</p>
+					</div>
+					<div class="result-body">
+						
+						<p id="output"><b>PUSH BUTTON</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel panel-warning">
+			<div class="panel-heading">Music List</div>
+			
+			<div class="center">
+				<br />
+				<div id="result"></div>
+				<br />
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScripts
+	================================================== -->
+	<script type="text/javascript" src="./assets/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="./rin/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="./assets/selector.js"></script>
+</body>
+
+</html>
+

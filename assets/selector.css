@@ -1,0 +1,109 @@
+/* 丸いボタン */
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+/* 要素のセンタリング */
+.center {
+    text-align: center;
+}
+
+/* 結果 */
+
+.result {
+	/* 横幅 */
+	max-width: 280px;
+	margin: 20px auto;
+}
+
+/*pにかかってるmarinリセット*/
+.result p {
+	margin: 0;
+}
+.result-title {
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	border: 2px solid #00c1fc;
+	background-color: #00c1fc;
+	color: #fff;
+}
+
+/*borderの太さに合わせて調整用*/
+.result-title p {
+	margin-top: 2px; 
+}
+
+.result-body {
+	border: 2px solid #00c1fc;
+	border-radius: 0 0 5px 5px;
+	padding: 20px 0;
+	font-size: 18px;
+}
+
+/* カスタムマージン */
+
+body {
+	margin-top: 20px;
+}
+
+
+p {
+	margin-top: 10px;
+}
+
+.buttons-top {
+	margin-top: 10px;
+}
+
+.button-guide {
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+.option-songs {
+	margin-left: 5px;
+}
+
+.option-songs h2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+/*	padding: .5em .75em; */
+	padding-left: .5em;
+	background-color: #f6f6f6;
+	border-left: 6px solid #ccc;
+}
+
+/* Bootstrap */
+.row-custom > div {
+	padding-right: 5px;
+	padding-left: 5px;
+}

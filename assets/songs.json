@@ -1,0 +1,917 @@
+{
+  "songs": [
+    {
+      "name":     "お願い！シンデレラ",
+      "type":     0,
+      "info":     "1",
+      "level": {
+        "debut": 5,
+        "regular": 10,
+        "pro": 15,
+        "master": 20
+        }
+    },
+    {
+      "name":     "とどけ！アイドル",
+      "type":     0,
+      "info":     "29",
+      "level": {
+        "debut": 5,
+        "regular": 11,
+        "pro": 15,
+        "master": 21
+        }
+    },
+    {
+      "name":     "輝く世界の魔法",
+      "type":     0,
+      "info":     "2",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "We're the friends!",
+      "type":     0,
+      "info":     "3",
+      "level": {
+        "debut": 6,
+        "regular": 12,
+        "pro": 16,
+        "master": 22
+        }
+    },
+    {
+      "name":     "メッセージ",
+      "type":     0,
+      "info":     "4",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 16,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Star!!",
+      "type":     0,
+      "info":     "19",
+      "level": {
+        "debut": 6,
+        "regular": 12,
+        "pro": 16,
+        "master": 25
+        }
+    },
+    {
+      "name":     "夕映えプレゼント",
+      "type":     0,
+      "info":     "20",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "GOIN'!!!",
+      "type":     0,
+      "info":     "21",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 17,
+        "master": 27
+        }
+    },
+    {
+      "name":     "できたて Evo! Revo! Generation!",
+      "type":     0,
+      "info":     "22",
+      "level": {
+        "debut": 7,
+        "regular": 11,
+        "pro": 19,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Happy×2 Days",
+      "type":     1,
+      "info":     "23",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 23
+        }
+    },
+    {
+      "name":     "-LEGNE- 仇なす剣 光の旋律",
+      "type":     2,
+      "info":     "24",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "Memories",
+      "type":     2,
+      "info":     "25",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 22
+        }
+    },
+    {
+      "name":     "OωOver!!",
+      "type":     1,
+      "info":     "26",
+      "level": {
+        "debut": 8,
+        "regular": 12,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "LET'S GO HAPPY!!",
+      "type":     3,
+      "info":     "27",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 18,
+        "master": 27
+        }
+    },
+    {
+      "name":     "Shine!!",
+      "type":     0,
+      "info":     "30",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "夢色ハーモニー",
+      "type":     0,
+      "info":     "38",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Trancing Pulse",
+      "type":     2,
+      "info":     "35",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "流れ星キセキ",
+      "type":     0,
+      "info":     "45",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "M@GIC☆",
+      "type":     0,
+      "info":     "36",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 28
+        }
+    },
+    {
+      "name":     "ススメ☆オトメ ～jewel parade～",
+      "type":     1,
+      "info":     "5",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "ススメ☆オトメ ～jewel parade～",
+      "type":     2,
+      "info":     "6",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "ススメ☆オトメ ～jewel parade～",
+      "type":     3,
+      "info":     "7",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "ススメ☆オトメ ～jewel parade～",
+      "type":     0,
+      "info":     "8",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "アタシポンコツアンドロイド",
+      "type":     1,
+      "info":     "41",
+      "level": {
+        "debut": 8,
+        "regular": 12,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Nation Blue",
+      "type":     2,
+      "info":     "42",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Orange Sapphire",
+      "type":     3,
+      "info":     "43",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "パステルピンクな恋",
+      "type":     1,
+      "info":     "56",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "オルゴールの小箱",
+      "type":     2,
+      "info":     "57",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 25
+        }
+    },
+    {
+      "name":     "絶対特権主張しますっ！",
+      "type":     3,
+      "info":     "58",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 27
+        }
+    },
+    {
+      "name":     "ゴキゲンParty Night",
+      "type":     1,
+      "info":     "46",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "ゴキゲンParty Night",
+      "type":     2,
+      "info":     "47",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "ゴキゲンParty Night",
+      "type":     3,
+      "info":     "48",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "ゴキゲンParty Night",
+      "type":     0,
+      "info":     "510",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "明日また会えるよね",
+      "type":     1,
+      "info":     "516",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "咲いてJewel",
+      "type":     2,
+      "info":     "517",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "きみにいっぱい☆",
+      "type":     3,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Near to You",
+      "type":     1,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Near to You",
+      "type":     2,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Near to You",
+      "type":     3,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Near to You",
+      "type":     0,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Snow Wings",
+      "type":     0,
+      "info":     "55",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Tulip",
+      "type":     0,
+      "info":     "54",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "ハイファイ☆デイズ",
+      "type":     0,
+      "info":     "62",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 18,
+        "master": 24
+        }
+    },
+    {
+      "name":     "生存本能ヴァルキュリア",
+      "type":     0,
+      "info":     "302",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 19,
+        "master": 26
+        }
+    },
+    {
+      "name":     "純情Midnight伝説",
+      "type":     0,
+      "info":     "306",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Love∞Destiny",
+      "type":     0,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 19,
+        "master": 26
+        }
+    },
+    {
+      "name":     "サマカニ！！",
+      "type":     0,
+      "info":     "0",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 19,
+        "master": 26
+        }
+    },
+    {
+      "name":     "BEYOND THE STARLIGHT",
+      "type":     0,
+      "info":     "0",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Absolute NIne",
+      "type":     0,
+      "info":     "61",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "つぼみ",
+      "type":     0,
+      "info":     "301",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "S(mile)ING!",
+      "type":     1,
+      "info":     "9",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 15,
+        "master": 21
+        }
+    },
+    {
+      "name":     "Never say never",
+      "type":     2,
+      "info":     "10",
+      "level": {
+        "debut": 6,
+        "regular": 12,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "ミツボシ☆☆★",
+      "type":     3,
+      "info":     "11",
+      "level": {
+        "debut": 8,
+        "regular": 12,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "おねだりShall We ～?",
+      "type":     1,
+      "info":     "18",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 25
+        }
+    },
+    {
+      "name":     "Twilight Sky",
+      "type":     2,
+      "info":     "28",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 18,
+        "master": 24
+        }
+    },
+    {
+      "name":     "DOKIDOKIリズム",
+      "type":     3,
+      "info":     "17",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "風色メロディ",
+      "type":     1,
+      "info":     "12",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 23
+        }
+    },
+    {
+      "name":     "ましゅまろ☆キッス",
+      "type":     3,
+      "info":     "14",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 24
+        }
+    },
+    {
+      "name":     "あんずのうた",
+      "type":     1,
+      "info":     "15",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "華蕾夢ミル狂詩曲 ～魂ノ導～",
+      "type":     2,
+      "info":     "13",
+      "level": {
+        "debut": 6,
+        "regular": 13,
+        "pro": 18,
+        "master": 27
+        }
+    },
+    {
+      "name":     "ショコラ・ティアラ",
+      "type":     1,
+      "info":     "34",
+      "level": {
+        "debut": 6,
+        "regular": 13,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "ヴィーナスシンドローム",
+      "type":     2,
+      "info":     "32",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 19,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Romantic Now",
+      "type":     3,
+      "info":     "33",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 19,
+        "master": 27
+        }
+    },
+    {
+      "name":     "You're stars shine on me",
+      "type":     2,
+      "info":     "31",
+      "level": {
+        "debut": 6,
+        "regular": 12,
+        "pro": 16,
+        "master": 23
+        }
+    },
+    {
+      "name":     "TOKIMEKIエスカレート",
+      "type":     3,
+      "info":     "37",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "Naked Romance",
+      "type":     1,
+      "info":     "40",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 26
+        }
+    },
+    {
+      "name":     "Angel Breeze",
+      "type":     2,
+      "info":     "44",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 17,
+        "master": 24
+        }
+    },
+     {
+      "name":     "アップルパイ・プリンセス",
+      "type":     3,
+      "info":     "51",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 17,
+        "master": 23
+        }
+    },
+     {
+      "name":     "エヴリデイドリーム",
+      "type":     1,
+      "info":     "52",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+     {
+      "name":     "Bright Blue",
+      "type":     2,
+      "info":     "53",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 23
+        }
+    },
+    {
+      "name":     "Rockin' Emotion",
+      "type":     3,
+      "info":     "59",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "花簪 HANAKANZASHI",
+      "type":     1,
+      "info":     "60",
+      "level": {
+        "debut": 6,
+        "regular": 13,
+        "pro": 19,
+        "master": 27
+        }
+    },
+    {
+      "name":     "Hotel Moonside",
+      "type":     2,
+      "info":     "63",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 27
+        }
+    },
+    {
+      "name":     "お散歩カメラ",
+      "type":     3,
+      "info":     "64",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
+      "name":     "メルヘンデビュー！",
+      "type":     1,
+      "info":     "65",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 27
+        }
+    },
+    {
+      "name":     "2nd SIDE",
+      "type":     2,
+      "info":     "66",
+      "level": {
+        "debut": 7,
+        "regular": 12,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "熱血乙女A",
+      "type":     3,
+      "info":     "67",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 22
+        }
+    },
+    {
+      "name":     "き・ま・ぐ・れ☆Café au lait！",
+      "type":     1,
+      "info":     "0",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
+      "name":     "薄荷 -ハッカ-",
+      "type":     2,
+      "info":     "0",
+      "level": {
+        "debut": 6,
+        "regular": 13,
+        "pro": 17,
+        "master": 24
+        }
+    },
+    {
+      "name":     "毒茸伝説",
+      "type":     3,
+      "info":     "0",
+      "level": {
+        "debut": 9,
+        "regular": 14,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "秘密のトワレ",
+      "type":     1,
+      "info":     "0",
+      "level": {
+        "debut": 9,
+        "regular": 13,
+        "pro": 19,
+        "master": 28
+        }
+    },
+    {
+      "name":     "小さな恋の密室事件",
+      "type":     2,
+      "info":     "0",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 27
+        }
+    },
+    {
+      "name":     "Can't Stop!!",
+      "type":     3,
+      "info":     "0",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 18,
+        "master": 25
+        }
+    }
+    ]
+}
