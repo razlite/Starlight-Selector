@@ -366,7 +366,7 @@
     {
       "name":     "明日また会えるよね",
       "type":     1,
-      "info":     "516",
+      "info":     "303",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -377,7 +377,7 @@
     {
       "name":     "咲いてJewel",
       "type":     2,
-      "info":     "517",
+      "info":     "304",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -388,7 +388,7 @@
     {
       "name":     "きみにいっぱい☆",
       "type":     3,
-      "info":     "0",
+      "info":     "305",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -399,7 +399,7 @@
     {
       "name":     "Near to You",
       "type":     1,
-      "info":     "0",
+      "info":     "309",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -410,7 +410,7 @@
     {
       "name":     "Near to You",
       "type":     2,
-      "info":     "0",
+      "info":     "310",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -421,7 +421,7 @@
     {
       "name":     "Near to You",
       "type":     3,
-      "info":     "0",
+      "info":     "311",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -432,7 +432,7 @@
     {
       "name":     "Near to You",
       "type":     0,
-      "info":     "0",
+      "info":     "312",
       "level": {
         "debut": 8,
         "regular": 13,
@@ -498,7 +498,7 @@
     {
       "name":     "Love∞Destiny",
       "type":     0,
-      "info":     "0",
+      "info":     "307",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -509,7 +509,7 @@
     {
       "name":     "サマカニ！！",
       "type":     0,
-      "info":     "0",
+      "info":     "308",
       "level": {
         "debut": 8,
         "regular": 14,
@@ -520,7 +520,7 @@
     {
       "name":     "BEYOND THE STARLIGHT",
       "type":     0,
-      "info":     "0",
+      "info":     "313",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -850,7 +850,7 @@
     {
       "name":     "き・ま・ぐ・れ☆Café au lait！",
       "type":     1,
-      "info":     "0",
+      "info":     "68",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -861,7 +861,7 @@
     {
       "name":     "薄荷 -ハッカ-",
       "type":     2,
-      "info":     "0",
+      "info":     "69",
       "level": {
         "debut": 6,
         "regular": 13,
@@ -872,7 +872,7 @@
     {
       "name":     "毒茸伝説",
       "type":     3,
-      "info":     "0",
+      "info":     "70",
       "level": {
         "debut": 9,
         "regular": 14,
@@ -883,7 +883,7 @@
     {
       "name":     "秘密のトワレ",
       "type":     1,
-      "info":     "0",
+      "info":     "71",
       "level": {
         "debut": 9,
         "regular": 13,
@@ -894,7 +894,7 @@
     {
       "name":     "小さな恋の密室事件",
       "type":     2,
-      "info":     "0",
+      "info":     "72",
       "level": {
         "debut": 7,
         "regular": 13,
@@ -905,7 +905,7 @@
     {
       "name":     "Can't Stop!!",
       "type":     3,
-      "info":     "0",
+      "info":     "76",
       "level": {
         "debut": 7,
         "regular": 13,
