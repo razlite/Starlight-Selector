@@ -10,6 +10,18 @@ window.onload = function()
 	var songs_cool = [];
 	var songs_passion = [];
 
+	var jackets = [];
+	var jackets_all = [];
+	var jackets_cute = [];
+	var jackets_cool = [];
+	var jackets_passion = [];
+
+	var info = [];
+	var info_all = [];
+	var info_cute = [];
+	var info_cool = [];
+	var info_passion = [];
+
 	var color = ["#000000", "#FB0774", "#236DFB", "#FCA926"];
 	
 	var difficulty = ["DEBUT", "REGULAR", "PRO", "MASTER"];
@@ -23,22 +35,32 @@ window.onload = function()
 		{
 			songs.push(songData.songs[i].name);
 			songs_type.push(songData.songs[i].type);
+			jackets.push(songData.songs[i].jacket);
+			info.push(songData.songs[i].info);
 			
 			if(songData.songs[i].type == 0)
 			{
 				songs_all.push(songData.songs[i].name);
+				jackets_all.push(songData.songs[i].jacket);
+				info_all.push(songData.songs[i].info);
 			}
 			else if(songData.songs[i].type == 1)
 			{
 				songs_cute.push(songData.songs[i].name);
+				jackets_cute.push(songData.songs[i].jacket);
+				info_cute.push(songData.songs[i].info);
 			}
 			else if(songData.songs[i].type == 2)
 			{
 				songs_cool.push(songData.songs[i].name);
+				jackets_cool.push(songData.songs[i].jacket);
+				info_cool.push(songData.songs[i].info);
 			}
 			else if(songData.songs[i].type == 3)
 			{
 				songs_passion.push(songData.songs[i].name);
+				jackets_cool.push(songData.songs[i].jacket);
+				info_passion.push(songData.songs[i].info);
 			}
 			
 			txt = txt + "<font color=\"" + color[songData.songs[i].type] + "\"><b>" + songs[i] + "</b></font> <br />";
@@ -72,7 +94,10 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 		
-		var word = "<b> <font color=\"" + color[songs_type[rand]] + "\">" + result + dWord + "</font> </b>";
+		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets[rand] + ".png";
+		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
+
+		var word = jacket_html + "<b> <font color=\"" + color[songs_type[rand]] + "\">" + result + dWord + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
