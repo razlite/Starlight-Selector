@@ -59,7 +59,7 @@ window.onload = function()
 			else if(songData.songs[i].type == 3)
 			{
 				songs_passion.push(songData.songs[i].name);
-				jackets_cool.push(songData.songs[i].jacket);
+				jackets_passion.push(songData.songs[i].jacket);
 				info_passion.push(songData.songs[i].info);
 			}
 			
