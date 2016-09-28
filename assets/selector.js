@@ -113,8 +113,11 @@ window.onload = function()
 		{
 			dWord = " [" + difficulty[dRand] + "]";
 		}
+
+		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_all[rand] + ".png";
+		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
-		var word = "<b> <font color=\"" + color[0] + "\">" + result + dWord + "</font> </b>";
+		var word =　jacket_html +  "<b> <font color=\"" + color[0] + "\">" + result + dWord + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
@@ -130,8 +133,11 @@ window.onload = function()
 		{
 			dWord = " [" + difficulty[dRand] + "]";
 		}
+
+		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_cute[rand] + ".png";
+		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
-		var word = "<b> <font color=\"" + color[1] + "\">" + result + dWord + "</font> </b>";
+		var word = jacket_html + "<b> <font color=\"" + color[1] + "\">" + result + dWord + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
@@ -147,8 +153,11 @@ window.onload = function()
 		{
 			dWord = " [" + difficulty[dRand] + "]";
 		}
+
+		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_all[rand] + ".png";
+		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
-		var word = "<b> <font color=\"" + color[2] + "\">" + result + dWord + "</font> </b>";
+		var word = jacket_html + "<b> <font color=\"" + color[2] + "\">" + result + dWord + "</font> </b>";
 		area.innerHTML = word;
 	}
 	
@@ -165,7 +174,10 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
-		var word = "<b> <font color=\"" + color[3] + "\">" + result + dWord + "</font> </b>";
+		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_all[rand] + ".png";
+		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
+
+		var word = jacket_html + "<b> <font color=\"" + color[3] + "\">" + result + dWord + "</font> </b>";
 		area.innerHTML = word;
 	}
 }
