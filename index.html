@@ -47,37 +47,51 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="panel panel-primary">
-			<div class="panel-heading">How to use</div>
-			
-			<div class="button-guide">
-				<div class="center">
-					<p>
-						ボタンを押したらランダムで楽曲を選んでくれます。<br />
-					</p>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand">Starlight Selector</a>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li><a href="#" id="about" data-toggle="modal" data-target="#about-modal">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="modal fade" id="about-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<div class="center"><h4 class="modal-title">Starlight Selector</h4></div>
 				</div>
-				
-				<dl class="dl-horizontal">
-					<dt>？ボタン</dt>
-					<dd>すべての楽曲からランダムで選びます。</dd>
+
+				<div class="modal-body">
+					<div class="center"><h4>How to use</h4></div>
+
+					<dl class="dl-horizontal">
+						<dt>？ボタン</dt>
+						<dd>すべての楽曲からランダムで選びます。</dd>
 					
-					<dt>CPボタン</dt>
-					<dd>全タイプ楽曲からランダムで選びます。</dd>
+						<dt>CPボタン</dt>
+						<dd>全タイプ楽曲からランダムで選びます。</dd>
 					
-					<dt>Cuボタン</dt>
-					<dd>キュート楽曲からランダムで選びます。</dd>
+						<dt>Cuボタン</dt>
+						<dd>キュート楽曲からランダムで選びます。</dd>
 					
-					<dt>Coボタン</dt>
-					<dd>クール楽曲からランダムで選びます。</dd>
+						<dt>Coボタン</dt>
+						<dd>クール楽曲からランダムで選びます。</dd>
 					
-					<dt>Paボタン</dt>
-					<dd>パッション楽曲からランダムで選びます。</dd>
-				</dl>
-				
+						<dt>Paボタン</dt>
+						<dd>パッション楽曲からランダムで選びます。</dd>
+					</dl>
+				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="panel panel-info">
 			<div class="panel-heading">Selecter Options</div>
 
