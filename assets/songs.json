@@ -995,6 +995,18 @@
         "pro": 18,
         "master": 25
         }
+    },
+    {
+      "name":     "キミとボクのミライ",
+      "type":     0,
+      "info":     "801",
+      "jacket":   "8001",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 18,
+        "master": 25
+        }
     }
     ]
 }
