@@ -229,6 +229,18 @@
         }
     },
     {
+      "name":     "STORY",
+      "type":     0,
+      "info":     "315",
+      "jacket":   "5028",
+      "level": {
+        "debut": 7,
+        "regular": 13,
+        "pro": 17,
+        "master": 25
+        }
+    },
+    {
       "name":     "ススメ☆オトメ ～jewel parade～",
       "type":     1,
       "info":     "5",
