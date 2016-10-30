@@ -26,38 +26,32 @@ window.onload = function()
 	
 	var difficulty = ["DEBUT", "REGULAR", "PRO", "MASTER"];
 	
-	httpObj.onload = function()
-	{
+	httpObj.onload = function() {
 		var songData = JSON.parse(this.responseText);
 		var txt = "";
 	
-		for (var i=0; i<songData.songs.length; i++)
-		{
+		for (var i=0; i<songData.songs.length; i++) {
 			songs.push(songData.songs[i].name);
 			songs_type.push(songData.songs[i].type);
 			jackets.push(songData.songs[i].jacket);
 			info.push(songData.songs[i].info);
 			
-			if(songData.songs[i].type == 0)
-			{
+			if(songData.songs[i].type == 0) {
 				songs_all.push(songData.songs[i].name);
 				jackets_all.push(songData.songs[i].jacket);
 				info_all.push(songData.songs[i].info);
 			}
-			else if(songData.songs[i].type == 1)
-			{
+			else if(songData.songs[i].type == 1) {
 				songs_cute.push(songData.songs[i].name);
 				jackets_cute.push(songData.songs[i].jacket);
 				info_cute.push(songData.songs[i].info);
 			}
-			else if(songData.songs[i].type == 2)
-			{
+			else if(songData.songs[i].type == 2) {
 				songs_cool.push(songData.songs[i].name);
 				jackets_cool.push(songData.songs[i].jacket);
 				info_cool.push(songData.songs[i].info);
 			}
-			else if(songData.songs[i].type == 3)
-			{
+			else if(songData.songs[i].type == 3) {
 				songs_passion.push(songData.songs[i].name);
 				jackets_passion.push(songData.songs[i].jacket);
 				info_passion.push(songData.songs[i].info);
@@ -81,16 +75,14 @@ window.onload = function()
 
 	var area = document.getElementById("output");
 	
-	button.onclick = function()
-	{
+	button.onclick = function() {
 		var rand = Math.floor(Math.random() * songs.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs[rand];
 		
 		var dWord = "";
 		
-		if(bool_randiff.checked == true)
-		{
+		if(bool_randiff.checked == true) {
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 		
@@ -101,16 +93,14 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
-	button_all.onclick = function()
-	{
+	button_all.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_all.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_all[rand];
 		
 		var dWord = "";
 		
-		if(bool_randiff.checked == true)
-		{
+		if(bool_randiff.checked == true) {
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
@@ -121,16 +111,14 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
-	button_cute.onclick = function()
-	{
+	button_cute.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_cute.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_cute[rand];
 
 		var dWord = "";
 		
-		if(bool_randiff.checked == true)
-		{
+		if(bool_randiff.checked == true) {
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
@@ -141,16 +129,14 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
-	button_cool.onclick = function()
-	{
+	button_cool.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_cool.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_cool[rand];
 
 		var dWord = "";
 		
-		if(bool_randiff.checked == true)
-		{
+		if(bool_randiff.checked == true) {
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
@@ -161,16 +147,14 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
-	button_passion.onclick = function()
-	{
+	button_passion.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_passion.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
 		var result = songs_passion[rand];
 		
 		var dWord = "";
 		
-		if(bool_randiff.checked == true)
-		{
+		if(bool_randiff.checked == true) {
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
