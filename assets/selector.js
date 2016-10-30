@@ -27,44 +27,53 @@ window.onload = function()
 	var difficulty = ["DEBUT", "REGULAR", "PRO", "MASTER"];
 	
 	httpObj.onload = function() {
+		// assets/songs.json を開く
 		var songData = JSON.parse(this.responseText);
 		var txt = "";
 	
+		// assets/songs.json を展開
 		for (var i=0; i<songData.songs.length; i++) {
 			songs.push(songData.songs[i].name);
 			songs_type.push(songData.songs[i].type);
 			jackets.push(songData.songs[i].jacket);
 			info.push(songData.songs[i].info);
 			
+			// 全タイプ
 			if(songData.songs[i].type == 0) {
 				songs_all.push(songData.songs[i].name);
 				jackets_all.push(songData.songs[i].jacket);
 				info_all.push(songData.songs[i].info);
 			}
+			// キュート
 			else if(songData.songs[i].type == 1) {
 				songs_cute.push(songData.songs[i].name);
 				jackets_cute.push(songData.songs[i].jacket);
 				info_cute.push(songData.songs[i].info);
 			}
+			// クール
 			else if(songData.songs[i].type == 2) {
 				songs_cool.push(songData.songs[i].name);
 				jackets_cool.push(songData.songs[i].jacket);
 				info_cool.push(songData.songs[i].info);
 			}
+			// パッション
 			else if(songData.songs[i].type == 3) {
 				songs_passion.push(songData.songs[i].name);
 				jackets_passion.push(songData.songs[i].jacket);
 				info_passion.push(songData.songs[i].info);
 			}
 			
+			// 出力結果: 楽曲一覧
 			txt = txt + "<font color=\"" + color[songData.songs[i].type] + "\"><b>" + songs[i] + "</b></font> <br />";
 		}
 	
+		// resultへ出力
 		document.getElementById("result").innerHTML = txt;
 	}
 	
 	httpObj.send(null);
 	
+	// ボタン
 	var button = document.getElementById("sel");
 	var button_all = document.getElementById("sel_all");
 	var button_cute = document.getElementById("sel_cute");
@@ -75,6 +84,7 @@ window.onload = function()
 
 	var area = document.getElementById("output");
 	
+	// ボタンを押したときの処理: 全て
 	button.onclick = function() {
 		var rand = Math.floor(Math.random() * songs.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
@@ -93,6 +103,7 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
+	// ボタンを押したときの処理: 全タイプ
 	button_all.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_all.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
@@ -111,6 +122,7 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
+	// ボタンを押したときの処理: キュート
 	button_cute.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_cute.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
@@ -129,6 +141,7 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
+	// ボタンを押したときの処理: クール
 	button_cool.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_cool.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
@@ -147,6 +160,7 @@ window.onload = function()
 		area.innerHTML = word;
 	}
 	
+	// ボタンを押したときの処理: パッション
 	button_passion.onclick = function() {
 		var rand = Math.floor(Math.random() * songs_passion.length);
 		var dRand = Math.floor(Math.random() * difficulty.length);
