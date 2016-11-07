@@ -493,6 +493,18 @@
         }
     },
     {
+      "name":     "ラブレター",
+      "type":     1,
+      "info":     "314",
+      "jacket":   "2001",
+      "level": {
+        "debut": 8,
+        "regular": 13,
+        "pro": 18,
+        "master": 26
+        }
+    },
+    {
       "name":     "Snow Wings",
       "type":     0,
       "info":     "55",
