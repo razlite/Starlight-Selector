@@ -1021,6 +1021,18 @@
         }
     },
     {
+      "name":     "恋色エナジー",
+      "type":     1,
+      "info":     "74",
+      "jacket":   "3042",
+      "level": {
+        "debut": 8,
+        "regular": 14,
+        "pro": 19,
+        "master": 25
+        }
+    },
+    {
       "name":     "キミとボクのミライ",
       "type":     0,
       "info":     "801",
