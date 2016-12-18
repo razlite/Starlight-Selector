@@ -1055,6 +1055,18 @@
         "pro": 18,
         "master": 25
         }
+    },
+    {
+      "name":     "Treasure☆",
+      "type":     0,
+      "info":     "322",
+      "jacket":   "1030",
+      "level": {
+        "debut": 6,
+        "regular": 11,
+        "pro": 16,
+        "master": 24
+        }
     }
     ]
 }
