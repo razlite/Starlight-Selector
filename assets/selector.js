@@ -28,7 +28,7 @@ window.onload = function()
 	
 	httpObj.onload = function() {
 		// assets/songs.json を開く
-		var songData = JSON.parse(this.httpObj);
+		var songData = JSON.parse(this.responseText);
 		var txt = "";
 	
 		// assets/songs.json を展開
