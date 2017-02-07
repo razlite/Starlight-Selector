@@ -96,7 +96,7 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 		
-		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets[rand] + ".png";
+		var jacket_url = "https://hoshimoriuta.kirara.ca/jacket/" + jackets[rand] + ".png";
 		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 
 		var word = jacket_html + "<b> <font color=\"" + color[songs_type[rand]] + "\">" + result + dWord + "</font> </b>";
@@ -115,7 +115,7 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
-		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_all[rand] + ".png";
+		var jacket_url = "https://hoshimoriuta.kirara.ca/jacket/" + jackets_all[rand] + ".png";
 		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
 		var word =　jacket_html +  "<b> <font color=\"" + color[0] + "\">" + result + dWord + "</font> </b>";
@@ -134,7 +134,7 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
-		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_cute[rand] + ".png";
+		var jacket_url = "https://hoshimoriuta.kirara.ca/jacket/" + jackets_cute[rand] + ".png";
 		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
 		var word = jacket_html + "<b> <font color=\"" + color[1] + "\">" + result + dWord + "</font> </b>";
@@ -153,7 +153,7 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
-		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_cool[rand] + ".png";
+		var jacket_url = "https://hoshimoriuta.kirara.ca/jacket/" + jackets_cool[rand] + ".png";
 		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 		
 		var word = jacket_html + "<b> <font color=\"" + color[2] + "\">" + result + dWord + "</font> </b>";
@@ -172,7 +172,7 @@ window.onload = function()
 			dWord = " [" + difficulty[dRand] + "]";
 		}
 
-		var jacket_url = "https://apiv2.deresute.info/image/jacket_" + jackets_passion[rand] + ".png";
+		var jacket_url = "https://hoshimoriuta.kirara.ca/jacket/" + jackets_passion[rand] + ".png";
 		var jacket_html = "<img src=\"" + jacket_url + "\" class=\"jacket\">";
 
 		var word = jacket_html + "<b> <font color=\"" + color[3] + "\">" + result + dWord + "</font> </b>";
