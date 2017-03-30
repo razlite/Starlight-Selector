@@ -5,4 +5,5 @@ Songs Random Selector on Web for "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT STAG
 
 # About
 「[アイドルマスターシンデレラガールズ スターライトステージ](http://cinderella.idolmaster.jp/sl-stage/ "アイドルマスターシンデレラガールズ スターライトステージ")」 専用の楽曲をランダムで選ぶWebサービスです。  
-デレステにランダム選曲機能がないので作りました。
+~~デレステにランダム選曲機能がないので作りました。~~  
+「ぴにゃリクエスト」及び「シェイクセレクト」が実装されました。今後はデレステ本体の該当機能をご利用ください。  
